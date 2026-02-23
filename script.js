@@ -14,7 +14,7 @@ function performKaprekarRoutine(number) {
 let results = [];
 let currentNumber = number;
 let count = 0;
-while (count < 7) {
+while (count < 6) {
 let descNum = currentNumber.split('').sort().reverse().join('').padStart(number.length, '0'); 
 let ascNum = currentNumber.split('').sort().join('').padStart(number.length, '0'); 
 let newNumber = (parseInt(descNum) - parseInt(ascNum)).toString().padStart(number.length, '0');
