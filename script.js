@@ -1,5 +1,6 @@
 const form = document.getElementById('inputForm');
 const outputDiv = document.getElementById('output');
+
 form.addEventListener('submit', function(event) {
 event.preventDefault(); 
 let number = document.getElementById('number').value;
