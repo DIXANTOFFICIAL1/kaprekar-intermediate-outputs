@@ -24,7 +24,7 @@ A web-based application that demonstrates **Kaprekar’s Routine** by displaying
 
 ## 📂 Project Structure
 
-''
+```
 kaprekar-intermediate-outputs/
 │
 ├── index.html
@@ -34,7 +34,7 @@ kaprekar-intermediate-outputs/
 │ ├── input.png
 │ └── output.png
 └── README.md
-''
+```
 
 ---
 
