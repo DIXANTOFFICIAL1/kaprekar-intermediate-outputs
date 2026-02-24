@@ -1,76 +1,94 @@
-📌 Kaprekar Intermediate Outputs
+# 🔢 Kaprekar Intermediate Outputs
 
-A web-based application that demonstrates Kaprekar’s Routine by displaying all intermediate subtraction steps for numbers containing 3 to 5 digits. The project helps users understand how numbers converge to a constant through repeated digit rearrangement and subtraction.
+A web-based application that demonstrates **Kaprekar’s Routine** by displaying all intermediate subtraction steps for numbers containing **3 to 5 digits**. This project helps users understand how numbers converge to a constant through repeated digit rearrangement and subtraction.
 
-🚀 Features
+---
 
-Accepts numbers between 3–5 digits
+## 🚀 Features
 
-Displays step-by-step intermediate outputs
+- Accepts numbers between **3–5 digits**
+- Displays **step-by-step intermediate outputs**
+- Automatically stops when the **Kaprekar constant** is reached
+- Clean and simple user interface
+- Runs directly in the browser (no installation required)
 
-Automatically stops when the Kaprekar constant is reached
+---
 
-Clean and simple user interface
+## 🛠 Technologies Used
 
-Runs directly in the browser (no installation required)
+- HTML  
+- CSS  
+- JavaScript  
 
-🛠 Technologies Used
+---
 
-HTML
+## 📂 Project Structure
 
-CSS
 
-JavaScript
-
-📂 Project Structure
 kaprekar-intermediate-outputs/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 ├── screenshots/
-│   ├── input.png
-│   └── output.png
+│ ├── input.png
+│ └── output.png
 └── README.md
-📖 How Kaprekar’s Routine Works
 
-Take a number (3–5 digits)
 
-Rearrange digits in descending order
+---
 
-Rearrange digits in ascending order
+## 📖 How Kaprekar’s Routine Works
 
-Subtract smaller from larger
+1. Take a number (3–5 digits)  
+2. Rearrange digits in **descending order**  
+3. Rearrange digits in **ascending order**  
+4. Subtract smaller from larger  
+5. Repeat until a constant is reached  
 
-Repeat the process until a constant is reached
+---
 
-🧪 Example
+## 🧪 Example
 
-Input
+**Input**
 
 356
 
-Output
+
+**Output**
 
 653 - 356 = 297
 972 - 279 = 693
 963 - 369 = 594
 954 - 459 = 495
 954 - 459 = 495
-▶ How to Run Locally
 
-Clone this repository:
 
-git clone https://github.com/your-username/kaprekar-intermediate-outputs.git
+---
 
-Open the project folder
+## 🖼 Screenshots
 
-Double-click index.html or open it in any web browser
+### Input
+![Input](screenshots/input.png)
 
-🧑‍💻 Author
+### Output
+![Output](screenshots/output.png)
 
-Dixant Soni
+---
 
-📜 License
+## ▶ How to Run Locally
 
-This project is created for educational purposes.
+1. Download or clone this repository  
+2. Open `index.html` in any web browser  
+
+---
+
+## 👨‍💻 Author
+
+Dixant Soni  
+
+---
+
+## 📜 License
+
+This project is for educational purposes.
